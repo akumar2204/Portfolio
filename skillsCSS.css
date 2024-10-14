@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(14, 13, 48);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(56, 56, 139);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(162, 162, 244);
+    font-size: 1.04rem;
+}
+
+.left {
+
+    font-size: 1.5rem;
+}
+
+.dp {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 0.25s;
+}
+
+.link:hover::before {
+    scale: 1;
+    transform-origin: left;
+}
+
+.jbt {
+    height: 270px;
+}
+
+.a,
+.b,
+.c,
+.d {
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    height: 257px;
+    width: 200px;
+    margin-left: 130px;
+}
+
+.a2 {
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    height: 240px;
+    width: 200px;
+    margin-left: 295px;
+    margin-top: 40px;
+}
+
+.b2 {
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    height: 240px;
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+
+}
+
+.c2 {
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    height: 240px;
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+
+}
+
+.head {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-style: italic;
+    font-size: 23px;
+    font-size: medium;
+    border-radius: 0px;
+}
+.content{
+    margin: 5px;
+}
+footer {
+    background-color: rgb(8, 11, 21);
+    float: left;
+    width:1500px;
+    margin-top: 0px;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+.flinks:hover{
+    text-decoration: none;
+    color: white;
+}
+.ap:hover{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    float: left;
+    margin: 7px;
+    color: aqua;
+}
